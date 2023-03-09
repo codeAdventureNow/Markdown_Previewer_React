@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Gloock&family=Lora:wght@500&family=Oxygen:wght@400;700&family=Poppins:wght@400;500;600&family=Questrial&display=swap');
+
+/* font-family: 'Gloock', serif;
+font-family: 'Lora', serif;
+font-family: 'Oxygen', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Questrial', sans-serif;
+ */
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  background: #fff8dc;
+}
+
+#editor {
+  outline: 1px solid grey;
+  border-radius: 3px;
+  width: 70%;
+  height: 50vh;
+  margin: 20px;
+  box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+  overflow-y: auto;
+}
+
+.text-area {
+  /* width: 400px;
+  height: 300px; */
+  width: 90%;
+  height: 70%;
+  /* height: 300px; */
+}
+
+.title {
+  margin: 0px 0px;
+  padding: 10px;
+  outline: 1px solid black;
+  background: #ffdead;
+  background: #ff6347;
+}
+
+#preview {
+  border-radius: 3px;
+  outline: 1px solid grey;
+  width: 70%;
+  height: 50vh;
+  margin: 20px;
+  background: white;
+  box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+}
+
+h3 {
+  color: #0b162a;
+}

@@ -1,12 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Gloock&family=Lora:wght@500&family=Oxygen:wght@400;700&family=Poppins:wght@400;500;600&family=Questrial&display=swap');
 
-/* font-family: 'Gloock', serif;
-font-family: 'Lora', serif;
-font-family: 'Oxygen', sans-serif;
-font-family: 'Poppins', sans-serif;
-font-family: 'Questrial', sans-serif;
- */
-
 .App {
   display: flex;
   flex-direction: column;
@@ -23,16 +16,13 @@ font-family: 'Questrial', sans-serif;
   width: 70%;
   height: 50vh;
   margin: 20px;
-  box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+  box-shadow: 4px 6px 6px hsl(0deg 0% 0% / 0.18);
   overflow-y: auto;
 }
 
 .text-area {
-  /* width: 400px;
-  height: 300px; */
   width: 90%;
   height: 70%;
-  /* height: 300px; */
 }
 
 .title {
@@ -50,7 +40,7 @@ font-family: 'Questrial', sans-serif;
   height: 50vh;
   margin: 20px;
   background: white;
-  box-shadow: 4px 8px 8px hsl(0deg 0% 0% / 0.38);
+  box-shadow: 4px 6px 6px hsl(0deg 0% 0% / 0.18);
 }
 
 h3 {
